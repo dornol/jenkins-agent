@@ -15,4 +15,4 @@ RUN apt-get update \
     && apt-get update \
     && apt-get install -y docker-ce-cli
 
-RUN apt install git
+RUN apt install -y git
